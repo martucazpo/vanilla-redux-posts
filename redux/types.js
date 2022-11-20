@@ -1,2 +1,6 @@
 export const GET_INPUT = 'GET_INPUT'
 export const ADD_POST = 'ADD_POST'
+export const DELETE_POST = 'DELETE_POST'
+export const GET_EDIT_FORM = 'GET_EDIT_FORM'
+export const EDIT_POST = 'EDIT_POST'
+export const SET_POSTS = 'SET_POSTS'
