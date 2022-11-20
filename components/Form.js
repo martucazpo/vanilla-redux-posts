@@ -1,5 +1,5 @@
 import store from "../redux/store.js"
-import { render } from "../assets/script.js"
+import { render } from "../assets/functions/render.js"
 
 const handleSubmit = (props) => {
     let args = {}

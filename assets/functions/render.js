@@ -1,9 +1,10 @@
-import Form from "../components/Form.js"
-import Input from "../components/Input.js"
-import Textarea from "../components/Textarea.js"
+import Form from "../../components/Form.js"
+import Input from "../../components/Input.js"
+import Textarea from "../../components/Textarea.js"
+import List from "../../components/List.js"
 
-import { addPost } from "../redux/actions.js"
-import store from "../redux/store.js"
+import { addPost } from "../../redux/actions.js"
+import store from "../../redux/store.js"
 
 const addPostDiv = document.getElementById("addPostDiv")
 
@@ -19,6 +20,6 @@ export const render = () => {
             ]
         }
     ))
+    List()
 }
 
-render()
