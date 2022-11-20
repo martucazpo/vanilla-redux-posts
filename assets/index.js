@@ -8,5 +8,4 @@ let posts = await getPosts()
 let onlyTen = posts.slice(50,60)
 store.dispatch(setPosts(onlyTen))
 
-
-render()
+window.addEventListener("DOMContentLoaded", render())
